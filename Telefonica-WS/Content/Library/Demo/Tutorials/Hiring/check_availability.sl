@@ -17,6 +17,6 @@ operation:
     - available: ${str(vacant)}
 
   results:
-    - UNAVAILLE: ${rand == 0}
+    - UNAVAILABLE: ${rand == 0}
     - AVAILABLE: ${rand == 1}
     - ILLEGAL
