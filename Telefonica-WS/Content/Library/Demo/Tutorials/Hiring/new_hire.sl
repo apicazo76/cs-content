@@ -32,6 +32,8 @@ flow:
           do:
             base.print:
               - text: "${'Failed to create address: ' + address}"
+          navigate:
+           - SUCCESS: FAILURE
   results:
       - SUCCESS
       - FAILURE
