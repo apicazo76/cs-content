@@ -27,8 +27,7 @@ flow:
             - text: "${'Availability for address ' + address + ' is: ' + availability}"
         navigate:
           - SUCCESS: SUCCESS
-    - on_failure:
-      - print_fail:
+    - print_fail:
           do:
             base.print:
               - text: "${'Failed to create address: ' + address}"
