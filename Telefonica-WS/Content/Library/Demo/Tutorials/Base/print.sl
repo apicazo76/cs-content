@@ -5,3 +5,7 @@ operation:
     - text
   python_action:
     script: print text
+  outputs:
+    - textouput: ${str(text)}
+  results:
+    - SUCCESS
